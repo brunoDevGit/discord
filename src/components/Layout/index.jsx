@@ -1,13 +1,14 @@
 import React from 'react';
 
-import { Container } from './styles';
+import {Grid} from './styles';
 
-const Layout = () => {
-  return (
-    <Container>
-      <h1>Layout</h1>
-    </Container>
-  );
-};
+function Layout() {
+  return 
+  (
+    <Grid>
+
+    </Grid>
+  )
+}
 
 export default Layout;
