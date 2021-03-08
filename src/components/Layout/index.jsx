@@ -1,13 +1,13 @@
 import React from 'react';
 
 import { Grid } from './styles';
-import ServerList from './components/ServerList'
+import ServerList from '../ServerList/index'
 
 const Layout = () => {
-  return(
-  <Grid>
-    <ServerList />
-  </Grid>
+  return (
+    <Grid>
+      <ServerList />
+    </Grid>
   )
 }
 
